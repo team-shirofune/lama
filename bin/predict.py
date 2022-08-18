@@ -11,6 +11,10 @@ import os
 import sys
 import traceback
 
+__dir__ = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(__dir__)
+sys.path.append(os.path.abspath(os.path.join(__dir__, '../')))
+
 from saicinpainting.evaluation.utils import move_to_device
 from saicinpainting.evaluation.refinement import refine_predict
 os.environ['OMP_NUM_THREADS'] = '1'
