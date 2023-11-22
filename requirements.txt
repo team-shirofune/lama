@@ -9,6 +9,7 @@ tensorflow
 joblib
 matplotlib
 pandas
+albumentations==0.5.2
 hydra-core==1.1.0
 pytorch-lightning
 tabulate
