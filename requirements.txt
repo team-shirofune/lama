@@ -4,7 +4,6 @@ numpy
 easydict==1.9.0
 scikit-image
 scikit-learn
-opencv-python-headless
 tensorflow
 joblib
 matplotlib
